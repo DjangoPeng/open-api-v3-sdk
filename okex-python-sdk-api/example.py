@@ -93,7 +93,7 @@ if __name__ == '__main__':
     # result = futureAPI.get_estimated_price('BTC-USD-181019')
     # result = futureAPI.get_holds('BTC-USD-181019')
     # result = futureAPI.get_limit('BTC-USD-181019')
-    # result = futureAPI.get_liquidation('BTC-USD-181019', 0)
+    # result = futureAPI.get_liquidation('BTC-USD-181019', '0')
     # result = futureAPI.get_holds_amount('BCH-USD-181019')
     # result = futureAPI.get_mark_price('BCH-USD-181019')
 

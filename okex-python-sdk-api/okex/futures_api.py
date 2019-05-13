@@ -177,7 +177,7 @@ class FutureAPI(Client):
             params['to'] = to
         if limit:
             params['limit'] = limit
-        return self._request_without_params(GET, FUTURE_LIQUIDATION + str(instrument_id) + '/liquidation')
+        return self._request_with_params(GET, FUTURE_LIQUIDATION + str(instrument_id) + '/liquidation', params)
 
     # query holds amount
     def get_holds_amount(self, instrument_id):
